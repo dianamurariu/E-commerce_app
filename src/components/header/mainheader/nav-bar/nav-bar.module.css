@@ -1,0 +1,29 @@
+.NavBar{
+    display: inline-flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+
+.navButton {
+    color: #30404D;
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #EBF1F5;
+    text-decoration: none;
+}
+
+.navButton:hover, .navButton:active {
+    background-color: #FFF;
+    border: 1px solid #BFCCD6;
+}
+
+.navButton img {
+    margin-left: 10px ;
+}

@@ -1,0 +1,22 @@
+.ListTitle {
+    color: #394B59;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.ListHr{
+    background-color: #D8E1E8;
+    width: 150px;
+}
+
+.ListItem {
+    padding-top:8px;
+}
+.ListLink{
+    text-decoration: none;
+    color: #30404D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+}

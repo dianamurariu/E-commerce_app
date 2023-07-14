@@ -1,0 +1,13 @@
+.category_large {
+    border-radius: 12px;
+    background-color: #8A9BA8;
+    padding: 24px 93px 256px 32px;
+}
+
+.category_large_text{
+    color: #EBF1F5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 16px;
+}

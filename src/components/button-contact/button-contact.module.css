@@ -1,0 +1,10 @@
+.btnContact {
+    display: block;
+    border-radius: 8px;
+    background-color: #E5EAEE;
+    padding: 16px 24px;
+    width: 200px;
+    color: #30404D;
+    font-size: 16px;
+    font-weight: 600;
+}

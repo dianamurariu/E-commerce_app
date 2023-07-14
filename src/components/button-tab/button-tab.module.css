@@ -1,0 +1,16 @@
+.tabButton {
+    font-weight: 600;
+    font-size: 16px;
+    color: #30404D;
+    background-color: transparent;
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 8px;
+}
+
+.tabButton:hover, .tabButton.isActive {
+    background-color: #fff;
+    border: 1px solid #CED9E0;
+}

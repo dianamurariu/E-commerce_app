@@ -1,0 +1,18 @@
+.wrapper_category_grid {
+    background-color: #FFF;
+    padding:55px 0 55px 0;
+}
+.container__inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    max-height: 384px;
+}
+
+.container_category_small{
+    display: grid;
+    gap: 33px;
+}
+
+
+

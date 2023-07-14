@@ -1,0 +1,21 @@
+.searchContainer {
+    margin-right: 30px;
+}
+  
+.searchInput {
+    border-radius: 8px;
+    border: 1px solid #D8E1E8;
+    background-color: #FFF;
+    display: inline-flex;
+    padding: 12px 40px 12px 50px;
+    background-image: url("/images/search.svg");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 16px 16px;
+    width: 300px;
+}
+
+.placeholderStyle {
+    color: #8A9BA8;
+    font-size: 14px;
+}

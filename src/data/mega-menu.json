@@ -1,0 +1,46 @@
+{
+    "category": [
+      {
+        "name": "Foods",
+        "subcategory": [
+          {
+            "title": "Sweets",
+            "items": ["Candy", "Crackers & Snacks", "Chocolate", "Cookies", "Cakes", "Licorice"]
+          },
+          {
+            "title": "Groceries",
+            "items": ["Soups & Seasonings", "Meat", "Vegetables", "Bread", "Baking Products", "Fish"]
+          },
+          {
+            "title": "Beverages",
+            "items": ["Wine", "Beer", "Soda", "Milk Drinks"]
+          },
+          {
+            "title": "Traditional Dutch",
+            "items": ["Cheese", "Jam", "Stroopwafels", "Strawberries"]
+          }
+        ]
+      },
+      {
+        "name": "Products",
+        "subcategory": [
+          {
+            "title": "Electronics",
+            "items": ["TV", "Laptop", "Smartphone", "Headphones", "Camera"]
+          },
+          {
+            "title": "Clothing",
+            "items": ["Shirts", "Pants", "Dresses", "Shoes", "Accessories"]
+          },
+          {
+            "title": "Home Decor",
+            "items": ["Furniture", "Lamps", "Rugs", "Curtains", "Wall Art"]
+          },
+          {
+            "title": "Books",
+            "items": ["Fiction", "Non-Fiction", "Biographies", "Self-Help"]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,29 @@
+.megMenu__container {
+    background-color: #FFF;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    display: none;
+
+}
+.megaMenu__content {
+    padding-top: 30px;
+    padding-bottom: 55px;
+} 
+.listContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
+}
+
+

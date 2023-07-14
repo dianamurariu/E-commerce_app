@@ -1,0 +1,27 @@
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.subtitle {
+    color: #EBF1F5;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.listItem{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #8A9BA8;
+
+}

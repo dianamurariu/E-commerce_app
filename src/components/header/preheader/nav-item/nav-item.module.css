@@ -1,0 +1,8 @@
+.navItem {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+.navItem:hover {
+    text-decoration: underline;
+}

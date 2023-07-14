@@ -1,0 +1,20 @@
+.subfooter {
+    background-color: #202B33;
+    color: #F5F8FA;
+}
+.subfooter__container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    margin-right: auto;
+}
+.CopyrightBar{
+    color: #8A9BA8;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}

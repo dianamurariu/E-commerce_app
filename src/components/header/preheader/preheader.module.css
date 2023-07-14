@@ -1,0 +1,19 @@
+.preheader {
+    background-color: #394B59;
+    color: #F5F8FA;
+}
+  
+.preheader__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.navMenu {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+}

@@ -1,0 +1,18 @@
+.category_small {
+    border-radius: 12px;
+    background-color: #EBF1F5;
+    padding: 24px 93px 28px 32px;
+}
+.category_small_text{
+    color: #5C7080;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 16px;
+}
+.btnLightPadding{
+    padding-bottom: 20px;
+}
+.btnLight{
+    padding-bottom: 20px;
+}

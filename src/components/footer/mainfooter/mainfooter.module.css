@@ -1,0 +1,20 @@
+.mainfooter {
+    background-color: #30404D;
+    color: #FFF;
+}
+.mainfooter__container{
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.links__container{
+    display: flex;
+    gap: 100px;
+}
+
+.contact__container {
+    display: flex;
+    padding-top: 50px;
+    gap: 140px;
+}
+

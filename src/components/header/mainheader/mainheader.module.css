@@ -1,0 +1,32 @@
+.mainHeader{
+    background-color: #EBF1F5;
+    color: #F5F8FA;
+    position: relative;
+}
+  
+.mainHeader__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.leftContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+.rightContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
