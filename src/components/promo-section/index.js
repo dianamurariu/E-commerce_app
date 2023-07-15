@@ -12,14 +12,13 @@ export default function PromoSection() {
             <div className="container">
                 <GridLayout>
                     <div className={styles.leftSide}>
-                        <Title level = {2}>YAAY! KING'S DAY!</Title>
+                        <Title level={2}>YAAY! KING'S DAY!</Title>
                         <Button style="btnPromo text-promo" text="⏰  This offer valid only untill 1st of May" />
-                        <Title level = {4}>Grab a treat basket for a special occasion</Title>
+                        <Title level={4}>Grab a treat basket for a special occasion</Title>
                         <p className={styles.promo_p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Purus, vitae ante risus quis cursus aliquam consectetur.</p>
                         <Button style="btnDark btnLarge text-white" text="More for less — check it out" />
-                        <Image className={styles.promo_image} src="images/Image-Icon-bg.svg" width={200} height={200} /> 
-                        
+                        <Image className={styles.promo_image} src="images/Image-Icon-bg.svg" width={200} height={200} alt="image"/>   
                     </div>
 
                     <div className={styles.rightSide}>
@@ -30,16 +29,10 @@ export default function PromoSection() {
                             <Basket imgstyle="light" text="King's decorations" price="$8." price_decimal="90" />
                             <Basket imgstyle="dark" text="King's day with Family" price="$8." price_decimal="90" />
                         </div>
-
-                    </div>
-                    
+                    </div>                   
                 </GridLayout>
-
-            </div>
-            
-        </div>
-        
+            </div>            
+        </div> 
     </div>
-
     );
 }

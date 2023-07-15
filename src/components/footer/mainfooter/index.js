@@ -1,7 +1,7 @@
-import styles from './mainfooter.module.css'
-import LinkSection from './link-section'
-import Newsletter from './newsletter-section'
-import SocialSection from './social-section'
+import styles from './mainfooter.module.css';
+import LinkSection from './link-section';
+import Newsletter from './newsletter-section';
+import SocialSection from './social-section';
 
 export default function MainFooter () {
     return (
@@ -21,9 +21,7 @@ export default function MainFooter () {
                         <Newsletter  heading="Subscribe" subheading="Don't miss out on any Dutchie news!" />
                         <SocialSection  heading="Follow Dutchie" subheading="Eget at ac dapibus felis dolor amet."/>
                     </div>
-                
                 </div>
-
             </div>
         </div>   
         </>

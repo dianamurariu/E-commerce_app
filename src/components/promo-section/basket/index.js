@@ -3,7 +3,7 @@ import styles from './basket.module.css';
 import Image from 'next/image';
 import ButtonAdd from '@/components/button-add';
 
-export default function Basket({ imgstyle, text, price, price_decimal}) {
+export default function Basket({imgstyle, text, price, price_decimal}) {
     return (
         <div className={styles.wrapper_basket}>
 
@@ -16,11 +16,8 @@ export default function Basket({ imgstyle, text, price, price_decimal}) {
                 )}
                 <div className={styles.container_button}>
                     <ButtonAdd btncolor="light" />
-                </div>
-                
+                </div>      
             </div>
-
-
 
             <div className={styles.description_basket}>
                 <Title level={6}>{text}</Title>
@@ -30,10 +27,7 @@ export default function Basket({ imgstyle, text, price, price_decimal}) {
                         <sup>{price_decimal}</sup>
                     </span>
                 </p>
-
             </div>
-
         </div>
-
     )
 }

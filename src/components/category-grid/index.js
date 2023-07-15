@@ -29,15 +29,10 @@ export default function CategoryGrid() {
                         
                         <div >
                             <CategorySmall text="Lorem ipsum dolor sit amet, consectetur" btnText="from 8.90€" btnDark={false} />
-
                         </div>
-
-                    </div>
-                    
-                </div>  
-                
+                    </div> 
+                </div>   
             </div>
-
         </div>
     )
 }

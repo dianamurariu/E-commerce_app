@@ -28,8 +28,6 @@ export default function TabsComponent() {
     );
 }
 
-
-
 // #1 Copy json in component directory
 // #2 Import inside a variable (hold value of json)
 // #3 Create inside components dir TabsComponent

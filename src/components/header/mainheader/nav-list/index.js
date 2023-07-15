@@ -8,9 +8,8 @@ export default function List({object}) {
         <h6 className={styles.ListTitle}>{object.title}</h6>
         <hr className={styles.ListHr}></hr>
       <ul>
-        {object.content.map((item) => (
-          <li className={styles.ListItem}><Link className={styles.ListLink} href="#">{item}</Link></li>
-
+        {object.content.map((item, index) => (
+          <li key={index} className={styles.ListItem}><Link className={styles.ListLink} href="#">{item}</Link></li>
         ))}
       </ul>
     </div>

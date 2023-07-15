@@ -7,7 +7,7 @@ export default function CategoryLarge({text, btnText}) {
 
             <p className={styles.category_large_text}>{text}</p>
             <Button style="btnTransparent btnLink text-white" text={btnText} 
-            imgposition="right" imgsrc="images/arrow-right.svg" imgwidth={20} imgheight={20} />
+            imgposition="right" imgsrc="images/arrow-right.svg" imgwidth={20} imgheight={20} alt="arrow"/>
 
         </div>
     )

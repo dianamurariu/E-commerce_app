@@ -15,9 +15,7 @@ export default function ProductCard({ img, discount, title, original_price, curr
         <>
             <div className={styles.wrapper_card}>
                 <div className={styles.card_top}>
-                    <img className={styles.card_image}
-                        src={img}
-                        alt="image" />
+                    <img className={styles.card_image} src={img} alt="image" />
                     {discount && <span className={styles.discount}>{discount}</span>}
                     <hr className={styles.card_line} />
                 </div>

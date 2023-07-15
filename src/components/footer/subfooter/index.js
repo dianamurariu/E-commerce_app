@@ -4,8 +4,7 @@ import Logo from "@/components/header/mainheader/logo";
 
 export default function Subfooter () {
     return (
-        <>
-
+    <>
     <div className={styles.subfooter}>
       <div className="container">
             <div className={styles.subfooter__container}>
@@ -15,6 +14,6 @@ export default function Subfooter () {
 
         </div>
     </div>
-        </>
+    </>
     )
 }

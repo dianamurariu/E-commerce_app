@@ -4,7 +4,6 @@ import Search from "./search";
 import User from "./user";
 import Cart from "./cart";
 import NavBar from "./nav-bar";
-import MegaMenu from "./mega-menu";
 
 export default function MainHeader () {
     return (
@@ -21,10 +20,7 @@ export default function MainHeader () {
 
                         <div className={styles.rightContainer}>
                             <Search placeholder="Search for foods, products or other" />
-                            {/* <User image="/images/user.svg" /> */}
-
                             <User image="/images/user.svg" link="#" />
-
                             <Cart image="/images/shopping-cart.svg" price="$26.70"/>
                         </div>
                     </div>

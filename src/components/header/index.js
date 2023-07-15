@@ -1,5 +1,4 @@
 import MainHeader from "./mainheader";
-import MegaMenu from "./mainheader/mega-menu";
 import PreHeader from "./preheader";
 
 export default function Header () {
@@ -8,7 +7,5 @@ export default function Header () {
         <PreHeader />
         <MainHeader />
         </header>
-
     )
-
 }

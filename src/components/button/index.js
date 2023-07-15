@@ -1,7 +1,7 @@
 import styles from './button.module.css';
 import Image from 'next/image';
 
-export default function Button({ style = "", text, imgsrc, imgposition , imgwidth, imgheight}) {
+export default function Button({style = "", text, imgsrc, imgposition , imgwidth, imgheight}) {
   return (
     <button className={style}>
       {imgposition === "left" && (
@@ -15,25 +15,6 @@ export default function Button({ style = "", text, imgsrc, imgposition , imgwidt
   );
 }
 
-// import styles from './button.module.css';
-
-// export default function Button({ style = "", text, iconLeft, iconRight }) {
-//   return (
-//     <button className={style}>
-//       {iconLeft ? (
-//         <img src={iconLeft} className={styles.iconLeft} alt="icon" />
-//       ) : (
-//         ""
-//       )}
-//       {text}
-//       {iconRight ? (
-//         <img src={iconRight} className={styles.iconRight} alt="icon" />
-//       ) : (
-//         ""
-//       )}
-//     </button>
-//   );
-// }
 
 // import styles from './Button.module.css';
 

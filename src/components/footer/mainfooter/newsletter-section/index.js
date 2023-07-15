@@ -1,7 +1,7 @@
-import Search from "@/components/header/mainheader/search"
-import styles from './newsletter-section.module.css'
+import Search from "@/components/header/mainheader/search";
+import styles from './newsletter-section.module.css';
 
-export default function Newsletter ( { heading, subheading}) {
+export default function Newsletter ({heading, subheading}) {
     return (
         <div className="Newletter">
             <h3 className={styles.heading}>{heading}</h3>

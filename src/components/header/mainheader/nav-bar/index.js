@@ -7,7 +7,7 @@ export default function NavBar() {
 
     const [activeDropdown, setActiveDropdown] = useState("");
 
-    function ToggleDropdown(openDropdown) {
+    function toggleDropdown(openDropdown) {
         let option = activeDropdown === openDropdown ? setActiveDropdown("") : setActiveDropdown(openDropdown);
     }
 
@@ -27,8 +27,8 @@ export default function NavBar() {
     return (
         <>
         <div className={styles.NavBar}>
-            <NavButton style={styles.navButton} text="Foods" handleClick={() => ToggleDropdown("Foods")} image="/images/chevron-down.svg"  />
-            <NavButton style={styles.navButton} text="Products" handleClick={() => ToggleDropdown("Products")}  image="/images/chevron-down.svg" />
+            <NavButton style={styles.navButton} text="Foods" handleClick={() => toggleDropdown("Foods")} image="/images/chevron-down.svg"  />
+            <NavButton style={styles.navButton} text="Products" handleClick={() => toggleDropdown("Products")}  image="/images/chevron-down.svg" />
             <NavButton style={styles.navButton} text="Deals" isLink={true} />
         </div>
 

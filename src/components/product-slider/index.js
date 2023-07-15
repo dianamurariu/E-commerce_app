@@ -11,11 +11,7 @@ export default function ProductSlider() {
                     <Title level={4}>Explore the items you'll love</Title>
                     <TabsComponent />
                 </div>
-   
             </div>
-
         </>
-
-
     )
 }
