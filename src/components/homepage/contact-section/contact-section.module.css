@@ -1,0 +1,30 @@
+.wrapper_contact{
+    padding: 64px 0;
+    background-color: #fff;
+}
+.wrapper_title{
+    color: #30404D;
+}
+.container_subtitle{
+    margin-top: 24px;
+    margin-bottom: 40px;
+    color: #8A9BA8;
+}
+.container_forms{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 35px;
+}
+.leftSide{
+    height: 590px;
+    border-radius: 16px;
+    border: 1px solid #D8E1E8;
+    background: #EBF1F5;
+}
+.rightSide{
+    height: 590px;
+    border-radius: 16px;
+    border: 1px solid #D8E1E8;
+}
+
+

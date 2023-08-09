@@ -1,0 +1,16 @@
+.wrapper_text_banner{
+    border-radius: 4px;
+    border: 1px solid #E1E8ED;
+    background-color: #FFF;
+    padding: 24px;
+    max-width: 400px;
+}
+.categoryName {
+    color: #A7B6C2;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.wrapper_title{
+    color: #30404D;
+}

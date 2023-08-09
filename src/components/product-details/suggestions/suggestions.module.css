@@ -1,0 +1,10 @@
+.wrapper_suggestions {
+    margin-top: 15px;
+}
+.wrapper_cards{
+    display: flex;
+    margin-top: 12px;
+}
+.wrapper_cards > * {
+    margin-right: 20px;
+}

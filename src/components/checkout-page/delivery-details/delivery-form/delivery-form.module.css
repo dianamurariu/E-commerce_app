@@ -1,0 +1,14 @@
+.delivery_form {
+    max-width: 328px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.wrapper_form_stack {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link {
+    text-decoration: none;
+}

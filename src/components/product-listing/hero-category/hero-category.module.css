@@ -1,0 +1,12 @@
+.wrapper__hero_category {
+    background-color: #F5F8FA;
+    height: 270px;
+}
+.leftSide {
+    padding: 95px 0 30px 0;
+}
+.wrapper_image{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 85px;
+}

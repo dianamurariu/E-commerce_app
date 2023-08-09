@@ -1,0 +1,35 @@
+.payment_form {
+    max-width: 328px;
+    margin: 0 auto;
+    margin-bottom: 108px;
+}
+.wrapper_title {
+    display: flex;
+    justify-content: space-between;
+    color: #394B59;
+}
+.wrapper_title span {
+    font-size: 16px;
+    font-weight: 400;
+}
+.accepted_cards {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.accepted_cards p {
+    color: #98A8B3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper_cards {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.card {
+    width: 32px;
+    height: 21px;
+    border-radius: 4px;
+    background-color: #E5EAEE;
+}

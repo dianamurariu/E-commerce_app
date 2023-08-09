@@ -1,0 +1,36 @@
+.form_payment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radio_btn {
+    border-radius: 8px;
+    border: 1px solid #CED9E0;
+    background: #FFF;
+    padding: 12px 16px 12px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.labels {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.labels label {
+    color: #394B59;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.labels img {
+    color: #8A9BA8;
+    width: 24px;
+    height: 24px;
+}
+.selected {
+    border-radius: 8px;
+    border: 1px solid #8A9BA8;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(16, 22, 26, 0.20), 0px 1px 1px 0px rgba(16, 22, 26, 0.20), 0px 0px 0px 0px rgba(16, 22, 26, 0.10);
+}

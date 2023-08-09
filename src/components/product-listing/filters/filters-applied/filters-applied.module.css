@@ -1,0 +1,45 @@
+/* .title{
+    color: #8A9BA8;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrapper_buttons{
+    margin-top: 8px;
+    display: flex;
+}
+.btnApplied{
+    margin-right: 16px;
+    background-color: #fff;
+    border: 1px solid #CED9E0;
+}
+.btnApplied :hover {
+    border: 1px solid #5C7080;
+    background: #E5EAEE;
+} */
+
+
+.title {
+  color: #8a9ba8;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wrapper_buttons {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+}
+
+.btnApplied {
+  margin-right: 16px;
+  background-color: #fff;
+  border: 1px solid #ced9e0;
+}
+
+.btnApplied:hover {
+  border: 1px solid #5c7080;
+  background: #e5eaee;
+}
+
+
+

@@ -1,0 +1,9 @@
+.btnDetails {
+    border-radius: 4px;
+    background: #E5EAEE;
+    color: #8A9BA8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    padding: 6px 10px;
+}

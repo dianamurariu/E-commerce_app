@@ -1,0 +1,27 @@
+.social_btn {
+  color: #30404d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #e5eaee;
+  background-color: #fff;
+  align-items: center;
+  padding: 13px;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out; 
+  box-shadow: none;
+}
+.social_btn:hover,
+.social_btn:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.social_btn img {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translate(0, -50%);
+}

@@ -1,0 +1,6 @@
+.wrapper_title {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    color: #394B59;
+}

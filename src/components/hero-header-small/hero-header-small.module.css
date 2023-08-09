@@ -1,0 +1,19 @@
+.wrapper_hero_small {
+    width: 100%;
+    height: 188px;
+    background-color: #F5F8FA;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_button {
+    margin-top: 32px;
+    margin-left: 34px;
+}
+.wrapper_image{
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.divider {
+    height: 1px;
+    background-color: #D8E1E8;
+}

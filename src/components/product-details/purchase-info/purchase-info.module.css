@@ -1,0 +1,39 @@
+.text{
+    color: #8A9BA8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 8px;
+}
+.strongText1{
+    color: #30404D;
+    font-size: 10px;
+    font-weight: 600;
+}
+.strongText2{
+    color: #30404D;
+    font-weight: 600;
+}
+.btnNew{
+    padding: 0px 5px!important;
+}
+.wrapper_meta_deta{
+    padding-top: 24px;
+}
+.wrapper_meta_deta > * {
+    margin-bottom: 8px;
+}
+.price_tag{
+    color: #30404D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 8px; 
+}
+.wrapper_button{
+    margin-top: 10px;
+}
+.superscript {
+    vertical-align: super; 
+    font-size: 15px;  
+}

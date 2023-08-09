@@ -1,0 +1,28 @@
+.current_filter {
+    color: #30404d;
+    font-size: 14px;
+    font-weight: 400; 
+    display: flex;  
+    gap: 8px;  
+    padding: 10px 14px;  
+    text-decoration: none;  
+    border-radius: 8px;  
+    border: 1px solid #ced9e0;  
+    transition: all 0.2s ease-in-out;  
+    align-items: center;  
+} 
+.current_filter:hover {
+    background-color: #e5eaee;
+}
+  
+.current_filter .delete {
+    display: none;
+}
+  
+.current_filter:hover .checked {
+    display: none;
+}
+  
+.current_filter:hover .delete {
+    display: inline-flex;
+}

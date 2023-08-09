@@ -1,0 +1,38 @@
+.checkout_tabs {
+    width: 100%;
+}
+.tabs {
+    display: flex;
+}  
+.tab {
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    color: #394b59;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 24px 0;
+    border-bottom: 4px solid #e5eaee;
+    border-radius: 0;
+} 
+.tab.active {
+    background-color: #f5f8fa;
+    border-bottom-color: #394b59;
+} 
+.panels {
+    width: 100%;
+} 
+.panel {
+    display: none;
+    background-color: #fff;
+    padding: 40px 0 65px 0;
+    max-width: 328px;
+    margin: 0 auto;
+} 
+.panel.active {
+    display: block;
+}
+  

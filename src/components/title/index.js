@@ -1,24 +1,12 @@
-import styles from './title.module.css';
-
-export default function Title({ level=2, children }) {
-
+export default function Title({ children, level=2, style }) {
     return (
-        <>
-            {level === 1 &&
-                <h1 className={styles.level1}>{children}</h1>}
-            {level === 2 &&
-                <h2 className={styles.level2}>{children}</h2>}
-            {level === 3 &&
-                <h2 className={styles.level3}>{children}</h2>}
-            {level === 4 &&
-                <h3 className={styles.level4}>{children}</h3>}
-            {level === 5 &&
-                <h3 className={styles.level5}>{children}</h3>}
-            {level === 6 &&
-                <h3 className={styles.level6}>{children}</h3>}
-            {level === 7 &&
-                <h3 className={styles.level7}>{children}</h3>}
-        </>
+      <>
+        {level === "h1" && <h1 className={style}>{children}</h1>}
+        {level === "h2" && <h2 className={style}>{children}</h2>}
+        {level === "h3" && <h3 className={style}>{children}</h3>}
+        {level === "h4" && <h4 className={style}>{children}</h4>}
+        {level === "h5" && <h5 className={style}>{children}</h5>}
+        {level === "h6" && <h6 className={style}>{children}</h6>}
+      </>
     );
-}
-
+  }

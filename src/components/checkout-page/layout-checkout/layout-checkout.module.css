@@ -1,0 +1,7 @@
+.layoutCheckout {
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 33px;
+}

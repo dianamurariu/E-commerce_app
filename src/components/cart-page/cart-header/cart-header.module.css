@@ -1,0 +1,10 @@
+.wrapper_cart_header {
+    display: flex;
+    justify-content: space-between;  
+}
+.wrapper_title {
+    color: #394B59;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

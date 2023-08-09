@@ -1,11 +1,14 @@
-import Layout from '@/components/layout'
+import Breadcrumbs from '@/components/breadcrumbs';
+import Layout from '@/components/layout';
+import ProductComponent from '@/components/product-details/product-component';
 
 export default function ProductDetails () {
     return (
         <>
         
         <Layout>
-        <p>This is Product Details Page</p>
+            <Breadcrumbs />
+            <ProductComponent />
         </Layout>
 
         </>
