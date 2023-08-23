@@ -1,17 +1,17 @@
-.btn{
-    margin-top: 16px;
-    border-radius: 8px;
-    background-color: #F5F8FA;
-    padding: 12px 16px;
-    color: #30404D;
-    font-size: 14px;
-    font-weight: 400;
-    border: 1px solid #F5F8FA;
+.btn {
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: #f5f8fa;
+  padding: 12px 16px;
+  color: #30404d;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #f5f8fa;
 }
 .btn:hover {
-    background-color: #CED9E0;
-    border: 1px solid #A7B6C2;
+  background-color: #ced9e0;
+  border: 1px solid #a7b6c2;
 }
 .btn img {
-    margin-left: 8px;
+  margin-left: 8px;
 }

@@ -1,11 +1,10 @@
-.wrapper_details{
-    background-color: #fff;   
-    margin-bottom: 60px;
+.wrapper_details {
+  background-color: #fff;
+  margin-bottom: 60px;
 }
 .leftSide {
-    width: 525px;
+  width: 525px;
 }
-.rightSide{
-    margin-left: 50px;
+.rightSide {
+  margin-left: 50px;
 }
-

@@ -1,14 +1,10 @@
-import Layout from '@/components/layout';
-import HeroHeaderSmall from '@/components/hero-header-small';
+import Layout from "@/components/layout";
+import HeroHeaderSmall from "@/components/hero-header-small";
 
-export default function Checkout () {
-    return (
-        <>
-        
-        <Layout>
-            <HeroHeaderSmall />
-        </Layout>
-
-        </>
-    )
+export default function Checkout() {
+  return (
+    <Layout>
+      <HeroHeaderSmall />
+    </Layout>
+  );
 }

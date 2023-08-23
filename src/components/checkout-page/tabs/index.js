@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './tabs.module.css'
+import styles from "./tabs.module.css";
 import SignInHeader from "../sign-in/sign-in-header";
 import SignInForm from "../sign-in/sign-in-form";
 import PersonalDetailsForm from "../checkout-guest/personal-details-form";
@@ -37,7 +37,10 @@ export default function Tabs() {
         </div>
         <div className={`${styles.panel} ${checkActive(2, styles.active)}`}>
           <div className={styles.wrapper_panel_2}>
-            <SignInHeader title="members" signUpLink="Not a member? Don't hesitate to" />
+            <SignInHeader
+              title="members"
+              signUpLink="Not a member? Don't hesitate to"
+            />
             <SignInForm />
           </div>
         </div>

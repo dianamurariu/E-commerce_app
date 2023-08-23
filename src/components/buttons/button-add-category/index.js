@@ -1,8 +1,5 @@
-import styles from './button-add-category.module.css';
+import styles from "./button-add-category.module.css";
 
-export default function ButtonAddCategory( ) {
-    return (
-        <button className = {styles.btnAddCategory}>
-        </button>
-    )
+export default function ButtonAddCategory() {
+  return <button className={styles.btnAddCategory} />;
 }

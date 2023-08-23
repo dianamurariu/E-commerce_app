@@ -1,25 +1,25 @@
 .wrapper__breadcrumbs {
-    background-color: #FFF;
+  background-color: #fff;
 }
-.breadcrumbs_inner{
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.breadcrumbs_inner {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .crumb {
-    background-color: transparent;
-    color: #30404D;
-    font-size: 14px;
-    font-weight: 400;
+  background-color: transparent;
+  color: #30404d;
+  font-size: 14px;
+  font-weight: 400;
 }
 .lastCrumb {
-    color: #8a9ba8;
+  color: #8a9ba8;
 }
-.imageContainer{
-    margin: 8px;
+.imageContainer {
+  margin: 8px;
 }
 .divider {
-    height: 1px;
-    background-color: #eeeeee;
+  height: 1px;
+  background-color: #eeeeee;
 }

@@ -1,18 +1,17 @@
-.wrapper_form{
-    width: 355px;
-    margin: 0 auto;
-    padding: 40px;
+.wrapper_form {
+  width: 355px;
+  margin: 0 auto;
+  padding: 40px;
 }
-.container_input{
-    width: 100%;
-    margin-bottom: 55px;
+.container_input {
+  width: 100%;
+  margin-bottom: 55px;
 }
 
 .input_small {
-    padding : 14px 0 14px 14px;
-    margin-bottom: 16px;
-
+  padding: 14px 0 14px 14px;
+  margin-bottom: 16px;
 }
 .input_large {
-    padding : 14px 0 165px 14px;
+  padding: 14px 0 165px 14px;
 }

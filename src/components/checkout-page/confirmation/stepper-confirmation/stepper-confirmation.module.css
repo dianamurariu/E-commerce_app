@@ -1,18 +1,18 @@
 .wrapper_stepper {
-    display: flex;
-    gap: 8px;
-    justify-content:center;
-    padding: 24px 0;
-    align-items: center;
-    border-bottom: 1px solid #d8e1e8;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 24px 0;
+  align-items: center;
+  border-bottom: 1px solid #d8e1e8;
 }
 .wrapper_stepper p {
-    color: #6A6A6A;
-    font-size: 16px;
-    font-weight: 400;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-weight: 400;
 }
 .button {
-    border-radius: 100px;
-    background: #30404D;
-    padding: 6px 7px;
+  border-radius: 100px;
+  background: #30404d;
+  padding: 6px 7px;
 }

@@ -1,29 +1,29 @@
 .wrapper_card {
-    width: 133px;
-    height: 168px;
-    border-radius: 8px;
-    border: 1px solid #d8e1e8;
-    background-color: #fff;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 133px;
+  height: 168px;
+  border-radius: 8px;
+  border: 1px solid #d8e1e8;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-  
+
 .wrapper_image {
-    padding-top: 40px;
-    margin: 0 auto;
+  padding-top: 40px;
+  margin: 0 auto;
 }
-  
+
 .card_bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-  
+
 .price {
-    color: #394b59;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 20px;
+  color: #394b59;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
 }

@@ -1,32 +1,32 @@
 .description {
-    padding: 35px;   
-    background: #FFF;
-    border: 1px solid #BFCCD6;
+  padding: 35px;
+  background: #fff;
+  border: 1px solid #bfccd6;
 }
-.characteristics{
-    padding: 35px;   
-    background: #FFF;
-    border-bottom: 1px solid #BFCCD6;
-    border-left: 1px solid #BFCCD6;
-    border-right: 1px solid #BFCCD6;
+.characteristics {
+  padding: 35px;
+  background: #fff;
+  border-bottom: 1px solid #bfccd6;
+  border-left: 1px solid #bfccd6;
+  border-right: 1px solid #bfccd6;
 }
-.listChar{
-    display: flex;
-    flex-direction: column;
+.listChar {
+  display: flex;
+  flex-direction: column;
 }
 .text {
-    color: #8A9BA8;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 12px; 
-    max-width: 432px;
-    display: flex;
-    align-items: center;
+  color: #8a9ba8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 12px;
+  max-width: 432px;
+  display: flex;
+  align-items: center;
 }
-.checkbox{
-    margin-right: 8px;
-    width: 24px;
-    height: 24px;
-    color: #8A9BA8;
+.checkbox {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  color: #8a9ba8;
 }

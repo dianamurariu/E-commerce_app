@@ -1,8 +1,8 @@
 .navItem {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
-  
+
 .navItem:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

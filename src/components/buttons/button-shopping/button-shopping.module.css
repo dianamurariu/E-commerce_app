@@ -1,19 +1,19 @@
 .btnShopping {
-    color: #8A9BA8;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: transparent;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    padding: 6px 12px; 
+  color: #8a9ba8;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 6px 12px;
 }
 .btnShopping:hover {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .btnShopping img {
-    margin-right: 6px;
+  margin-right: 6px;
 }
-

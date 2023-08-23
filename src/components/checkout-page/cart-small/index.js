@@ -1,19 +1,17 @@
-import styles from './cart-small.module.css';
-import ItemSmall from './item-small';
+import { calculateFinalPrice } from "@/cartUtils";
+import styles from "./cart-small.module.css";
+import ItemSmall from "./item-small";
 
-import { useCartContext, cardActionType } from '@/context/cartContext';
+import { useCartContext } from "@/context/cartContext";
 
 export default function CartSmall() {
-  const { state, dispatch } = useCartContext();
+  const { state } = useCartContext();
   const { cards } = state;
 
-  // Calculate the subtotal
-  const subtotal = cards.reduce((acc, card) => acc + parseFloat(card.totalPrice), 0);
+  const subtotal = calculateFinalPrice(cards);
 
-  // Define the shipping price
-  const shippingPrice = 4.90;
+  const shippingPrice = 4.9;
 
-  // Calculate the total price (subtotal + shipping)
   const totalPrice = subtotal + shippingPrice;
 
   return (

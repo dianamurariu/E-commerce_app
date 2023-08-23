@@ -8,18 +8,18 @@ export default function PreHeader() {
     <div className={styles.preheader}>
       <div className="container">
         <div className={styles.preheader__container}>
-            <Email mail='info@dutchie.nl' />
-            <Notification firstPart="40% off dutch sweets" secondPart="only today!"/>
+          <Email mail="info@dutchie.nl" />
+          <Notification
+            firstPart="40% off dutch sweets"
+            secondPart="only today!"
+          />
 
-            <ul className={styles.navMenu}>
-              <NavItem option='Contact' />
-              <NavItem option='FAQ' />
-            </ul>
-
-         </div>
-
+          <ul className={styles.navMenu}>
+            <NavItem option="Contact" />
+            <NavItem option="FAQ" />
+          </ul>
+        </div>
       </div>
-      
     </div>
   );
 }

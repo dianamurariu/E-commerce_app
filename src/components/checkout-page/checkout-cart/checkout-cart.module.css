@@ -1,19 +1,17 @@
 .container_checkout_cart {
-    z-index: 2;
-    margin-top: -100px;   
-    margin-bottom: 56px;
-    
+  z-index: 2;
+  margin-top: -100px;
+  margin-bottom: 56px;
 }
 .wrapper_checkout_cart {
-    border-radius: 12px;
-    border: 1px solid #CED9E0;
-    background: #E5EAEE;
-    margin-top: 24px;
-    overflow: hidden;
-
+  border-radius: 12px;
+  border: 1px solid #ced9e0;
+  background: #e5eaee;
+  margin-top: 24px;
+  overflow: hidden;
 }
 .wrapper_title {
-    color: #394B59;
-    display: flex;
-    gap: 16px;
+  color: #394b59;
+  display: flex;
+  gap: 16px;
 }

@@ -1,5 +1,5 @@
-import styles from './filters-applied.module.css';
-import CurrentFilter from './filter-current';
+import styles from "./filters-applied.module.css";
+import CurrentFilter from "./filter-current";
 
 export default function FiltersApplied() {
   return (

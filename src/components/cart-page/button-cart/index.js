@@ -1,43 +1,25 @@
-import React from 'react';
-import styles from './button-cart.module.css';
-import Image from 'next/image';
+import styles from "./button-cart.module.css";
+import Image from "next/image";
+import { iconDimensions } from "@/config";
 
 export default function ButtonCart({ btnFunction, onClick }) {
   return (
     <button className={styles.btnCart} onClick={onClick}>
-      {btnFunction === 'plus' ? (
-        <Image src="/images/Plus-Icon-Cart.svg" alt="Plus" width={16} height={16} />
+      {btnFunction === "plus" ? (
+        <Image
+          src="/images/Plus-Icon-Cart.svg"
+          alt="icon-plus"
+          width={iconDimensions().small}
+          height={iconDimensions().small}
+        />
       ) : (
-        <Image src="/images/Minus-Icon-Cart.svg" alt="Minus" width={16} height={16} />
+        <Image
+          src="/images/Minus-Icon-Cart.svg"
+          alt="icon-minus"
+          width={iconDimensions().small}
+          height={iconDimensions().small}
+        />
       )}
     </button>
   );
 }
-
-
-
-
-
-// import styles from './button-cart.module.css';
-// import Image from 'next/image';
-
-// export default function ButtonCart({ btnFunction, onClick }) {
-//   const handleClick = () => {
-//     if (btnFunction === 'plus') {
-//       onClick(1);
-//     } else if (btnFunction === 'minus') {
-//       onClick(-1);
-//     }
-//   };
-
-//   return (
-//     <button className={styles.btnCart} onClick={handleClick}>
-//       {btnFunction === 'plus' ? (
-//         <Image src="/images/Plus-Icon-Cart.svg" alt="Plus" width={16} height={16} />
-//       ) : (
-//         <Image src="/images/Minus-Icon-Cart.svg" alt="Minus" width={16} height={16} />
-//       )}
-//     </button>
-//   );
-// }
-

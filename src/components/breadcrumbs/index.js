@@ -1,9 +1,11 @@
 import { useRouter } from "next/router";
 import styles from "./breadcrumbs.module.css";
 import Image from "next/image";
+import { iconDimensions } from "@/config";
 
 export default function Breadcrumbs() {
   const router = useRouter();
+
   const currentPath = router.pathname;
 
   let currentLink = "";
@@ -19,14 +21,21 @@ export default function Breadcrumbs() {
 
     return (
       <div key={index}>
-        <button type="button" className={`${styles.crumb} ${isLastCrumb ? styles.lastCrumb : ""}`}
+        <button
+          type="button"
+          className={`${styles.crumb} ${isLastCrumb ? styles.lastCrumb : ""}`}
           onClick={() => router.push(currentLink)}
         >
           {capitalizedCrumb}
         </button>
         {!isLastCrumb && (
           <div className={styles.imageContainer}>
-            <Image src="/images/arrow-breadcrumbs.svg" alt="image" width={14} height={14} />
+            <Image
+              src="/images/arrow-breadcrumbs.svg"
+              alt="icon-breadcrumb"
+              width={iconDimensions().small}
+              height={iconDimensions().small}
+            />
           </div>
         )}
       </div>
@@ -37,11 +46,20 @@ export default function Breadcrumbs() {
     <div className={styles.wrapper__breadcrumbs}>
       <div className="container">
         <div className={styles.breadcrumbs_inner}>
-          <button type="button" className={styles.crumb} onClick={() => router.push("/")} >
+          <button
+            type="button"
+            className={styles.crumb}
+            onClick={() => router.push("/")}
+          >
             Home
           </button>
           <div className={styles.imageContainer}>
-            <Image src="/images/arrow-breadcrumbs.svg" alt="image" width={14} height={14} />
+            <Image
+              src="/images/arrow-breadcrumbs.svg"
+              alt="icon-breadcrumb"
+              width={iconDimensions().extraSmall}
+              height={iconDimensions().extraSmall}
+            />
           </div>
           {crumbs}
         </div>
@@ -50,7 +68,3 @@ export default function Breadcrumbs() {
     </div>
   );
 }
-
-
-
-

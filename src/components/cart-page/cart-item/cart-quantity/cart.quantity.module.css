@@ -1,20 +1,20 @@
 .wrapper_cart {
-    width: 525px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
+  width: 525px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.quantity{
-    display: flex;
-    gap: 12px;
-    align-items: center;
+.quantity {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
-.numberItems{
-    color: #8A9BA8;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; 
+.numberItems {
+  color: #8a9ba8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }

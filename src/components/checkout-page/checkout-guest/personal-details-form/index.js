@@ -1,9 +1,9 @@
-import styles from './personal-details-form.module.css';
-import ButtonSubmit from '@/components/buttons/button-submit';
-import Link from 'next/link';
+import styles from "./personal-details-form.module.css";
+import ButtonSubmit from "@/components/buttons/button-submit";
+import Link from "next/link";
 
-export default function PersonalDetailsForm () {
-    return (
+export default function PersonalDetailsForm() {
+  return (
     <form className={styles.form_personal_details}>
       <input type="email" placeholder="E-mail" />
       <span className={styles.divider}></span>
@@ -12,12 +12,15 @@ export default function PersonalDetailsForm () {
       <input type="tel" placeholder="Phone (optional)" />
       <div className={styles.divider} />
       <div className={styles.search}>
-        <input type="search" placeholder="Enter the first line of you address"   />
+        <input
+          type="search"
+          placeholder="Enter the first line of you address"
+        />
       </div>
       <div className={styles.form_bottom}>
         <div className={styles.country}>
           <label>Country</label>
-          <p>Netherlands</p>
+          <p>🇳🇱 Netherlands</p>
         </div>
         <select>
           <option>Change country</option>
@@ -31,5 +34,5 @@ export default function PersonalDetailsForm () {
         <ButtonSubmit text="Proceed" />
       </Link>
     </form>
-    )
+  );
 }
