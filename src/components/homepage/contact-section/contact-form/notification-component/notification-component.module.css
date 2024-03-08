@@ -1,18 +1,17 @@
-.quick_reply_msg{
-    border-radius: 8px;
-    background-color: #8A9BA8;
-    justify-content: center;
-    padding: 8px 12px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
+.quick_reply_msg {
+  border-radius: 8px;
+  background-color: #8a9ba8;
+  justify-content: center;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
 }
 .quick_reply_msg p {
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
 }
 .quick_reply_msg img {
-    margin-right: 10px;
+  margin-right: 10px;
 }

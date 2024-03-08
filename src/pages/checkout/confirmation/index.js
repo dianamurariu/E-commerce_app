@@ -6,24 +6,18 @@ import CheckoutCart from "@/components/checkout-page/checkout-cart";
 import StepperConfirmation from "@/components/checkout-page/confirmation/stepper-confirmation";
 import ThanksMessage from "@/components/checkout-page/confirmation/thanks-message";
 
+export default function Confirmation() {
+  return (
+    <Layout>
+      <HeroHeaderSmall />
+      <LayoutCheckout>
+        <CheckoutForm>
+          <StepperConfirmation />
+          <ThanksMessage title="Thank you for your purchase!" />
+        </CheckoutForm>
 
-export default function Confirmation () {
-    return (
-        <Layout>
-            <HeroHeaderSmall />
-            <LayoutCheckout>
-
-                <CheckoutForm>
-                    <StepperConfirmation />
-                    <ThanksMessage title="Thank you for your purchase!" />
-                   
-                </CheckoutForm>
-
-                <CheckoutCart />
-
-            </LayoutCheckout>
-
-        </Layout>
-    
-    )
+        <CheckoutCart />
+      </LayoutCheckout>
+    </Layout>
+  );
 }

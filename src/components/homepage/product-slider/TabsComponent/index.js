@@ -1,30 +1,37 @@
-import TabButton from '@/components/homepage/product-slider/button-tab';
-import data from '../products.json';
+import TabButton from "@/components/homepage/product-slider/button-tab";
+import data from "./products.json";
 import { useState } from "react";
-import SwiperComponent from '../swiper-component';
-import styles from './TabsComponent.module.css'
+import SwiperComponent from "../swiper-component";
+import styles from "./TabsComponent.module.css";
 
 export default function TabsComponent() {
+  var dataObject = data;
+  const [activeTab, setActiveTab] = useState(dataObject.productTabs[0].name);
 
-    var dataObject = data;
-    const [activeTab, setActiveTab] = useState(dataObject.productTabs[0].name);
+  function displaySwiper(showSwiper) {
+    setActiveTab(showSwiper);
+  }
 
-    function displaySwiper(showSwiper) {
-        setActiveTab(showSwiper);
-    }
-
-    return (
-        <div className={styles.tabsComponent}>
-            <div className={styles.tab}>
-                {dataObject.productTabs.map((item,index) => (
-                    <TabButton key={index} isActive={activeTab === item.name} text={item.name} handleClick={displaySwiper} />
-                ))}
-            </div>
-            {dataObject.productTabs.map((item,index) => (
-                    activeTab === item.name && <SwiperComponent key={index} cards={item.items} />
-                ))}
-        </div>
-    );
+  return (
+    <div className={styles.tabsComponent}>
+      <div className={styles.tab}>
+        {dataObject.productTabs.map((item, index) => (
+          <TabButton
+            key={index}
+            isActive={activeTab === item.name}
+            text={item.name}
+            handleClick={displaySwiper}
+          />
+        ))}
+      </div>
+      {dataObject.productTabs.map(
+        (item, index) =>
+          activeTab === item.name && (
+            <SwiperComponent key={index} cards={item.items} />
+          )
+      )}
+    </div>
+  );
 }
 
 // #1 Copy json in component directory

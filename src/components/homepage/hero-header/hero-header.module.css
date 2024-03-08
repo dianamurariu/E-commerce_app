@@ -1,36 +1,36 @@
 .wrapper__hero {
-    background-color: #F5F8FA;
-    padding: 90px 0 120px 0;
+  background-color: #f5f8fa;
+  padding: 90px 0 120px 0;
 }
-.wrapper_title{
-    color: #8A9BA8;
-    max-width: 400px;
+.wrapper_title {
+  color: #8a9ba8;
+  max-width: 400px;
 }
-  
+
 .rightSide {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .rightSide img {
-    width: 530px;
-    height: 285px;
-
+  width: 530px;
+  height: 285px;
 }
 .strongText {
-    color: #394B59;
+  color: #394b59;
 }
-.paragraph{
-    color: #8A9BA8;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+.paragraph {
+  color: #8a9ba8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .btnHover:hover {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }

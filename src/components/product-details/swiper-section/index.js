@@ -1,20 +1,24 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 export default function SwiperSection() {
-
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+  const imageUrls = [
+    "https://swiperjs.com/demos/images/nature-1.jpg",
+    "https://swiperjs.com/demos/images/nature-2.jpg",
+    "https://swiperjs.com/demos/images/nature-3.jpg",
+    "https://swiperjs.com/demos/images/nature-4.jpg",
+  ];
 
   return (
     <div className="details_slider">
-      {thumbsSwiper && !thumbsSwiper.destroyed && ( 
+      {thumbsSwiper && (
         <Swiper
           style={{
             "--swiper-navigation-color": "#fff",
@@ -22,25 +26,15 @@ export default function SwiperSection() {
           }}
           spaceBetween={10}
           navigation={false}
-          thumbs={{ swiper: thumbsSwiper }}
+          thumbs={thumbsSwiper}
           modules={[FreeMode, Navigation, Thumbs]}
           className="mySwiper2"
         >
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </SwiperSlide>
+          {imageUrls.map((imageUrl, index) => (
+            <SwiperSlide key={index}>
+              <img src={imageUrl} alt="image" />
+            </SwiperSlide>
+          ))}
         </Swiper>
       )}
 
@@ -53,27 +47,12 @@ export default function SwiperSection() {
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
+        {imageUrls.map((imageUrl, index) => (
+          <SwiperSlide key={index}>
+            <img src={imageUrl} alt="image" />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
 }
-
-
-
-
-

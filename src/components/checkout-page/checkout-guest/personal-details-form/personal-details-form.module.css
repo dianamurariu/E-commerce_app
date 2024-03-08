@@ -1,101 +1,92 @@
 .form_personal_details {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .form_bottom {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-  
 .form_personal_details input {
-    color: #394b59;
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 8px;
-    border: 1px solid #ced9e0;
-    background-color: #fff;
-    padding: 14px;
+  color: #394b59;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 1px solid #ced9e0;
+  background-color: #fff;
+  padding: 14px;
 }
 .divider {
-    width: 296px;
-    height: 1px;
-    background-color: #e5eaee;
-    margin: 4px auto;
+  width: 296px;
+  height: 1px;
+  background-color: #e5eaee;
+  margin: 4px auto;
 }
-  
 .search {
-    position: relative;
+  position: relative;
 }
-  
 .search input[type="search"] {
-    width: 100%;
-    padding: 14px 14px 14px 42px;
-    color: #394b59;
+  width: 100%;
+  padding: 14px 14px 14px 42px;
+  color: #394b59;
 }
-  
 .search:before {
-    content: "";
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 16px;
-    height: 16px;
-    background-image: url("/images/search.svg");
-    background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("/images/search.svg");
+  background-repeat: no-repeat;
 }
-  
 .form_bottom {
-    margin-top: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 .country label {
-    color: #98a8b3;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
+  color: #98a8b3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
 }
 .country p {
-    color: #394b59;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    margin-top: 8px;
+  color: #394b59;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 8px;
 }
-  
 .form_bottom select {
-    border: none;
-    color: #99a7b3;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.28px;
+  border: none;
+  color: #99a7b3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
 }
 .form_personal_details textarea {
-    height: 218px;
-    border-radius: 8px;
-    border: 1px solid #CED9E0;
-    background: #FFF;
-    color: #394B59;
-    font-size: 14px;
-    font-weight: 400;
+  height: 218px;
+  border-radius: 8px;
+  border: 1px solid #ced9e0;
+  background: #fff;
+  color: #394b59;
+  font-size: 14px;
+  font-weight: 400;
 }
 .form_personal_details textarea::placeholder {
-    color: #8A9BA8;
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 17px;
-    padding-left: 20px;
+  color: #8a9ba8;
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 17px;
+  padding-left: 20px;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
-  

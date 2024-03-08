@@ -1,14 +1,14 @@
 .container_checkout_form {
-    z-index: 2;
-    margin-top: -100px; 
-    margin-bottom: 56px;
+  z-index: 2;
+  margin-top: -100px;
+  margin-bottom: 56px;
 }
 .wrapper_checkout_form {
-    border-radius: 8px;
-    border: 1px solid #D8E1E8;
-    background: #FFF;
-    margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid #d8e1e8;
+  background: #fff;
+  margin-top: 24px;
 }
 .wrapper_title {
-    color: #394B59;
+  color: #394b59;
 }

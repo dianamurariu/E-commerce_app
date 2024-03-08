@@ -1,17 +1,17 @@
 .rightSide {
-    padding-top: 24px;
+  padding-top: 24px;
 }
-.wrapper_filters_right{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+.wrapper_filters_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.wrapper_sort_by{
-    margin-top: auto;
-    margin-bottom: 12px;
+.wrapper_sort_by {
+  margin-top: auto;
+  margin-bottom: 12px;
 }
 
-.wrapper_products{
-    width:100%;
-    padding: 30px 0 50px 0;
+.wrapper_products {
+  width: 100%;
+  padding: 30px 0 50px 0;
 }

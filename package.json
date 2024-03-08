@@ -22,6 +22,6 @@
     "react-i18next": "^13.0.1",
     "react-id-swiper": "^3.0.0",
     "react-router-dom": "^6.14.1",
-    "swiper": "^10.0.4"
+    "swiper": "^10.2.0"
   }
 }

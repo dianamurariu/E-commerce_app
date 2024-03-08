@@ -12,12 +12,12 @@
   padding: 13px;
   position: relative;
   cursor: pointer;
-  transition: box-shadow 0.3s ease-in-out; 
+  transition: box-shadow 0.3s ease-in-out;
   box-shadow: none;
 }
 .social_btn:hover,
 .social_btn:active {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .social_btn img {
   position: absolute;

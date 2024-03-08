@@ -1,41 +1,27 @@
-import styles from './item-small.module.css';
-import Title from '@/components/title';
-import CartQuantity from '@/components/cart-page/cart-item/cart-quantity';
-import ButtonDelete from '@/components/buttons/button-delete';
+import React, { useState, useEffect } from "react";
+import styles from "./item-small.module.css";
+import Title from "@/components/title";
+import CartQuantity from "@/components/cart-page/cart-item/cart-quantity";
+import ButtonDelete from "@/components/buttons/button-delete";
 
-import { useState, useEffect } from 'react';
-import { useCartContext, cardActionType } from '@/context/cartContext';
+import { useCartContext, cardActionType } from "@/context/cartContext";
+import { calcPrice, calculateTotal, updateCartItems } from "@/cartUtils";
 
-
-export default function ItemSmall (props) {
+export default function ItemSmall(props) {
   const { id, img, title, currPrice } = props;
 
   const { state, dispatch } = useCartContext();
   const totalCount = state.totalCount;
   const [count, setCount] = useState(totalCount);
   const [total, setTotal] = useState(currPrice);
-  
 
   useEffect(() => {
-    const finalTotal = parseFloat((count * parseFloat(currPrice)).toFixed(2));
+    const finalTotal = calculateTotal(count, currPrice);
     setTotal(finalTotal);
 
-    const items = state.cards.map((card) => {
-      return {
-        ...card,
-        totalPrice: id === card.id ? finalTotal : card.totalPrice,
-      };
-    });
+    updateCartItems(dispatch, state.cards, id, finalTotal); // Just call the function
 
-    dispatch({ type: cardActionType.UPDATE_CARDS, payload: items });
-
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
-
-    const totalCount = count;
+    calcPrice(state.cards, dispatch);
 
     dispatch({ type: cardActionType.SET_TOTAL_COUNT, payload: totalCount });
   }, [count]);
@@ -43,18 +29,15 @@ export default function ItemSmall (props) {
   return (
     <div className={styles.item_small}>
       <div className={styles.wrapper_title_quantity}>
-        <Title level="h6" style="weight400">
-          {title}
-          {id}
-        </Title>
-        <CartQuantity setCount={setCount} count={count} />
+        <Title level="h6" style="weight400"> {title} {id}</Title>
+        <CartQuantity setCount={setCount} count={count} imgsrc={img} />
       </div>
 
       <div className={styles.wrapper_delete_price}>
         <ButtonDelete {...props} />
         <p className={styles.price}>
           <span className={styles.currency}>$ </span>
-          {total}
+          {Number(total).toFixed(2)}
         </p>
       </div>
     </div>

@@ -7,27 +7,22 @@ import Stepper from "@/components/checkout-page/stepper";
 import ButtonBack from "@/components/checkout-page/button-back";
 import CardDetails from "@/components/checkout-page/card-details";
 
+export default function Payment() {
+  return (
+    <Layout>
+      <HeroHeaderSmall />
+      <LayoutCheckout>
+        <CheckoutForm>
+          <Stepper active={3} />
+          <ButtonBack
+            href="/checkout/delivery-details"
+            hrefName="delivery method"
+          />
+          <CardDetails />
+        </CheckoutForm>
 
-
-export default function Payment () {
-
-    return (
-        <Layout>
-            <HeroHeaderSmall />
-            <LayoutCheckout>
-
-                <CheckoutForm>
-                   <Stepper active={3} />
-                   <ButtonBack href="/checkout/delivery-details" hrefName="delivery method" />
-                   <CardDetails />
-
-                </CheckoutForm>
-
-                <CheckoutCart />
-
-            </LayoutCheckout>
-
-        </Layout>
-    
-    )
+        <CheckoutCart />
+      </LayoutCheckout>
+    </Layout>
+  );
 }
